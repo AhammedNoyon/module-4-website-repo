@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="index1.html">video</a></li>
+                    <li><a href="index2.html">my-website</a></li>
+                    <li><a href="index3.html">Form</a></li>
+                    <li><a href="index4.html">table</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section>
+            <form>
+                <h3>Please fill up the form</h3>
+                <label for="name">your name:
+                    <input type="text" placeholder="enter your name" name="name"
+                id="name">
+            </label>
+                <label for="email">your email:
+                    <input type="email" name="email" placeholder="enter your email" id="email">
+                </label>
+                
+                <label for="phone">your number:
+                    <input type="text"  placeholder="enter your number" name="phone" id="phone">
+                </label>
+                <label for="password">your password:
+                    <input type="password"  placeholder="enter your password" name="password" id="password">
+                </label>
+
+                <fieldset>
+                    <legend>pick one in your favourite</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">
+                    chitoy</label>
+                    <label for="puli">
+                        <input type="radio" name="pitha" id="puli">
+                    puli</label>
+                    <label for="shobug pitha">
+                        <input type="radio" name="pitha" id="shobug pitha">
+                    shobug pitha</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>pick one and more vorta</legend>
+                    <label for="sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa">
+                    sorisa</label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">
+                    shutki</label>
+                    <label for="chili">
+                        <input type="checkbox" name="vorta" id="chili">
+                    chili</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Speacial Instruction</legend>
+                    <textarea name="" id=""cols="30" rows="2"></textarea>
+                </fieldset>
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
